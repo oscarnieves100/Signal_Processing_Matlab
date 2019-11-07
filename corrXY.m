@@ -102,6 +102,8 @@ switch mode
         end
 end
 
+output_corr = output_corr/T;
+
 switch plots1
     case 0
         disp('no plots');
