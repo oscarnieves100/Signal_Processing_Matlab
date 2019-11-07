@@ -95,6 +95,8 @@ switch mode
         end
 end
 
+output_ACF = output_ACF/T;
+
 switch plots1
     case 0
         disp('no plots');
